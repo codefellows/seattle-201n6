@@ -5,12 +5,12 @@ This first day of class is an all-day session with the students that is mostly l
 
 - [Kickoff! (with slides)](#kickoff)
 - [Academic Overview (with slides)](#academic)
-- [Verify Student Toolbelts](#toolbelt)
-- [Unix & Git (with slides)](#ug)
 
+- [Unix & Git (with slides)](#ug)
 - [Set up a JavaScript linter](#linter)
 - [Go over the assigned readings](#readings)
 - [Code demo](#code)
+- [Verify Student Toolbelts](#toolbelt) (We'll do this in lab tonight)
 
 ## Readings
 
