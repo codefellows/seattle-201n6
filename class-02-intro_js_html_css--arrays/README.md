@@ -1,11 +1,11 @@
 <a id="top"></a>
 # Today's Plan: Class 02 Lecture
 
-- [Go over the assigned readings](#readings)
+- code review
 
 - Git and GitHub
 
-- [Code demo](#code)
+- [Go over the assigned readings](#readings)
 
 - Announcements:
 
@@ -46,16 +46,5 @@
 - pp.70-73 	Arrays
 - p.74 	Expressions
 - p.75 	Operators (Arithmetic, p.76) (String, p.78)
-
-[-top-](#top)
-
-<a id="code"></a>
-## Live code
-
-In our code demo today we'll be doing the following:
-- Initializing a GitHub repo and working with Git commands
-- Separation of concerns
-- Introduction to CSS
-- JavaScript - Data Types, Arrays, Operators
 
 [-top-](#top)
