@@ -7,7 +7,7 @@
 
 - [Go over the assigned readings](#readings)
 
-- Announcements:
+- Lab assignment overview
 
 
 ## Readings
