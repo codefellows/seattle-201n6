@@ -14,7 +14,8 @@ User stories typically take the form of, "As X, I want Y, so that Z" but do not 
 
 - As a student, I want to enhance my About Me page using CSS to style and customize the look and feel of my site.
 - As a developer, I want my code clean and separated into specific modular files, so its easy to read and understand.
-- As a developer, I want to include a fifth question in my script which...
+- As a developer, I want to include a fifth question in my script which uses a logical operator.
+- As a developer, I want to include a sixth question in my script which has multiple possible right answers (see below for more details).
 - As a developer, I want to practice my Git workflow, so I will ACP regularly with clean commit messages.
 
 ### Technical Requirements for "About Me"

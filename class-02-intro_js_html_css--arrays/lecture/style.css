@@ -1,12 +1,12 @@
 /* EVERYTHING selector */
 * {
-  /*border: */
+  border: 1px solid grey;
 }
 
 /* element selectors */
 
 h1 {
-
+  color: yellow;
 }
 
 h2, h3 {
@@ -14,12 +14,25 @@ h2, h3 {
 }
 
 /* class selector */
+.title {
+  color: blue;
+}
 
 /* ID selector */
+#bob {
+  color: green;
+}
+
 
 /* child selector */
+article > p {
+  font-family: fantasy;
+}
 
 /* descendant selector */
+article p {
+  font-family: fantasy;
+}
 
 /*cascading:
   last over first
