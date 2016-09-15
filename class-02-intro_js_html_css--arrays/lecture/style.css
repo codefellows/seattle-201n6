@@ -1,0 +1,33 @@
+/* EVERYTHING selector */
+* {
+  /*border: */
+}
+
+/* element selectors */
+
+h1 {
+
+}
+
+h2, h3 {
+
+}
+
+/* class selector */
+
+/* ID selector */
+
+/* child selector */
+
+/* descendant selector */
+
+/*cascading:
+  last over first
+  specific over general*/
+
+/* avoid !important */
+
+/* inheritance */
+
+/* browser quirks */
+  /* see 'user agent stylesheet' in chrome dev tools */
