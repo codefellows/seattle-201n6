@@ -92,7 +92,7 @@ switch (faveColor) {
 ```
 
 ## Type Coercion, Weak Typing, and Truthy/Falsy Values
-JavaScript is called *weakly typed* because values can be changed from one data type to another. Languages that don't allow this are *strongly typed*. When performing loose equality checks, JS performs *type coercion* to see if values are equal if they are evaluated as having the same data type.
+JavaScript is called *weakly typed* because values can be changed from one data type to another. Languages that don't allow this are *strongly typed*. When performing loose equality checks, the JS engine performs *type coercion* to see if values are equal when they are evaluated as having the same data type.
 
 ```javascript
 var a = 5;
