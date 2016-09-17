@@ -14,12 +14,12 @@ For this lab we will be adding a few things to the work we've done so far. Use t
 - As a prospective job seeker, I was to use CSS to creatively and tastefully style my page.
 - As a prospective job seeker, I want to have five yes/no questions in my "about me" guessing game so that I have enough questions to cover a variety of things about me.
 - As a developer, I want to add a seventh question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low'.
-- As a developer, I want to add an eighth question to my guessing game that accepts multiple possible correct answers that are stored in an array, for instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased.
 
 ### User Stories (Stretch goals... not required!)
 
 - As a developer, I want to keep a tally of the total number of correct answers given by the user, and at the end of the game, tell the user how well they did with a personalized custom message that includes the number of correct answers and also addresses the user by name, e.g. "You got 4 out of 7 questions correct, Bobbi! Better luck next time."
 - As a developer, I want to make my code more DRY by putting all of the questions, answers, and responses to the first five yes/no questions in my guessing game into arrays (or even one huge multidimensional array), and modifying the game logic such that a 'for' loop will control the flow from question to question. (This will take some planning... here's a hint on how to approach it!)
+
 ```javascript
 for (var i = 0; i < numberOfQuestions; i++) {
   var answer = prompt(questions[i]);
