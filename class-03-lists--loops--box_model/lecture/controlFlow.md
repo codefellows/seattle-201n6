@@ -173,10 +173,10 @@ These loops will keep running until `condition === false`, so you must ensure th
 
 ```javascript
 var myNumber = 3;
-var userNumber = prompt('What number am I thinking of?');
+var userNumber = parseInt(prompt('What number am I thinking of?'));
 
-while (userNumber != myNumber) {
-  userNumber = prompt('What number am I thinking of?');
+while (userNumber !== myNumber) {
+  userNumber = parseInt(prompt('What number am I thinking of?'));
 }
 
 var i = 1;

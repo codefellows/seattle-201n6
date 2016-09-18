@@ -5,6 +5,7 @@
 - GitHub Branches
 - [CSS Box Model](#box)
 - [JS Control Flow](#control)
+- [Strict Mode](#strict)
 
 ## Readings
 
@@ -14,12 +15,12 @@
 
 We're not going to go over the chapter on HTML lists in class but feel free to ask questions. It's pretty easy. Here's what's in that chapter:
 
-    **HTML Chapter 3: "Lists"**
+**HTML Chapter 3: "Lists"**
 
-    - p.65: Ordered/numbered lists
-    - p.66: Unordered/bullet lists
-    - p.67: Definition lists
-    - p.68: Nested lists
+- p.65: Ordered/numbered lists
+- p.66: Unordered/bullet lists
+- p.67: Definition lists
+- p.68: Nested lists
 
 <a id="codereview"></a>
 ## Code Review & Follow-up
@@ -70,6 +71,17 @@ We're not going to go over the chapter on HTML lists in class but feel free to a
 - p.175 	Using ‘for’ loops
 - p.176 	Using ‘while’ loops
 - p.177 	Using ‘do...while’ loops
+
+<a id="strict"></a>
+## Strict Mode
+
+Strict mode in JavaScript helps catch common errors and make the JS engine more efficient. To enable it, put the line
+
+```javascript
+'use strict';
+```
+
+at the top of all your JS files. To learn more about how it works, [read the docs!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 
 [-top-](#top)
