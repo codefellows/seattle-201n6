@@ -3,6 +3,8 @@
 
 - Announcements
 
+- Week 1: impressions & reflections?
+
 - [Code Review](#codereview)
 
 - [Links](#links)
