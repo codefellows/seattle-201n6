@@ -39,7 +39,7 @@ button:active {
 }
 
 #rem-vs-em {
-  /*font-size: 12px; /*parent to set default size for the em class*/*/
+  font-size: 12px; /*parent to set default size for the em class*/
 }
 
 .em {
@@ -72,14 +72,15 @@ th, td {
 }
 
 #font-face {
-  font-family: SourceSansProBlack, sans-serif;;
+  font-family: SourceSansProBlack, sans-serif;
 }
 
 #align-bear {
   vertical-align: middle;
 }
 
-.flext-bear {
+.flex-bear {
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
