@@ -2,6 +2,8 @@
 
 Today will be another exercise in pair programming, and you'll be polishing and deploying your Guessing Game to GitHub Pages.
 
+Since we have Thursday night and Saturday to accomplish this, please focus on finishing your Guessing Game Thursday, and use Saturday for the pair assignment.
+
 ### Pair Programming Basics
 
 - In pair programming there are two developers working on a single body of code on a single computer. One member of the pair is the Driver, and this person will be the one doing all of the actual typing work on the laptop. The other member of the pair is the Navigator, and this person will work with only their voice and their thoughts.
@@ -45,12 +47,12 @@ Submission instructions are in the Canvas assignment.
 
 ### Deployment of Guessing Game
 
-We'll be deploying our finished About Me projects to GitHub Pages. This will make them real, live websites that people can visit. The process is simple:
+We'll be deploying our finished About Me projects to GitHub Pages. Feel free to work on this with your partner or by yourself. This will make them real, live websites that people can visit. The process is simple:
 
 - Finish all technical requirements and any other tweaks you want to make.
 - Add-commit-push your working branch.
 - Create a PR on GitHub and merge your final changes to the master branch.
 - Pull master in your terminal so you have the final product saved to your local master branch.
 - Checkout a new `gh-pages` branch. It must have the exact name `gh-pages`
-- To deploy your site, push the `gh-pages` to GH.
+- To deploy your site, add-commit-push the `gh-pages` branch to GH.
 - Verify that deployment was successful: go to your repo on GitHub and open the settings tab. Look for the GitHub Pages section, where you should see a message saying `Your site is published at http://<username>.github.io/<repo-name>` Follow that link and play through your game. Everything should be working correctly. If some part of your deployed page doesn't work, look for console messages or other errors, or consult an instructor.
