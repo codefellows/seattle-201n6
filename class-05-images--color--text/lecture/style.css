@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  /*font-size: 12px; /*set a custom default font size*/*/
+}
+
+header h1 {
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: purple;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+button:active {
+  background-color: green;
+}
+
+#rem-vs-em {
+  font-size: 12px; /*parent to set default size for the em class*/
+}
+
+.em {
+  font-size: 2em;
+}
+
+.rem {
+  font-size: 2rem;
+}
+
+#font-types {
+  max-width: 600px;
+}
+
+.serif-text {
+  font-family: Times, serif;
+}
+
+th, td {
+  padding: 0.5em;
+}
+
+.num {
+  text-align: right;
+}
+
+@font-face {
+  font-family: 'SourceSansProBlack';
+  src: url(fonts/SourceSansPro-Black.otf);
+}
+
+#font-face {
+  font-family: SourceSansProBlack, sans-serif;
+}
+
+#align-bear {
+  vertical-align: middle;
+}
+
+.flex-bear {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

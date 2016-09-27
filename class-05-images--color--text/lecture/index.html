@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TEXT!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>I Am the Site Title H1!</h1>
+
+      <ul>
+        <li><a href="#text-sizing">Sizing</a></li>
+        <li><a href="#rem-vs-em">REM vs. EM</a></li>
+        <li><a href="#font-types">Font Types</a></li>
+      </ul>
+
+      <button type="button">Give us money</button>
+    </header>
+
+    <main>
+
+      <section id="text-sizing">
+
+        <h1>This is H1 in a section. Thanks webkit...</h1>
+
+        <article>
+          <h1>This is H1 in an article. Thanks webkit...</h1>
+          <h2>This is H2</h2>
+          <h3>This is H3</h3>
+          <h4>This is H4</h4>
+          <h5>This is H5</h5>
+          <h6>This is H6</h6>
+          <p>This is a regular paragraph.</p>
+        </article>
+
+      </section>
+
+      <hr>
+      <section id="rem-vs-em">
+
+        <h1 class="em">This is H1 in an EM section.</h1>
+        <h1 class="rem">This is H1 in a REM section.</h1>
+
+      </section>
+
+      <hr>
+
+      <section id="font-types">
+
+        <p class="serif-text">
+          Taxidermy master cleanse gastropub, four dollar toast literally organic intelligentsia microdosing raw denim meditation occupy pop-up next level kogi typewriter. Disrupt chicharrones godard narwhal offal, trust fund messenger bag vinyl hella mustache. Chambray cred drinking vinegar, vinyl bespoke portland master cleanse iPhone. Biodiesel typewriter photo booth schlitz chicharrones cold-pressed. Organic pug cliche, 3 wolf moon DIY fingerstache ethical sartorial cardigan. Umami chillwave fanny pack readymade man braid cray bicycle rights, kickstarter mumblecore gentrify before they sold out sriracha kombucha crucifix. IPhone bitters DIY, ramps kale chips before they sold out vegan gluten-free umami.
+        </p>
+
+        <p class="sans-text">
+          Taxidermy master cleanse gastropub, four dollar toast literally organic intelligentsia microdosing raw denim meditation occupy pop-up next level kogi typewriter. Disrupt chicharrones godard narwhal offal, trust fund messenger bag vinyl hella mustache. Chambray cred drinking vinegar, vinyl bespoke portland master cleanse iPhone. Biodiesel typewriter photo booth schlitz chicharrones cold-pressed. Organic pug cliche, 3 wolf moon DIY fingerstache ethical sartorial cardigan. Umami chillwave fanny pack readymade man braid cray bicycle rights, kickstarter mumblecore gentrify before they sold out sriracha kombucha crucifix. IPhone bitters DIY, ramps kale chips before they sold out vegan gluten-free umami.
+        </p>
+
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Cost</th>
+            <th>Tax</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td>Rent</td>
+            <td class="num">$1000.00</td>
+            <td class="num">$95.00</td>
+            <td class="num">$1095.00</td>
+          </tr>
+          <tr>
+            <td>Food</td>
+            <td class="num serif-text">$700.00</td>
+            <td class="num serif-text">$66.50</td>
+            <td class="num serif-text">$766.50</td>
+          </tr>
+        </table>
+
+        <code>
+          Anything in a code element is monospace by default.
+        </code>
+
+      </section>
+
+      <hr>
+
+      <section id="font-face">
+
+        <h2>
+          This font is set by the @font-face
+        </h2>
+
+      </section>
+
+      <hr>
+
+      <p><img id="align-bear" src="polarBear.jpg" alt="sad bear" title="sad bear"/>Has this bear been trying to align text vertically?</p>
+
+      <!-- uncomment this div to see an easy, flexbox-based solution to the vertical alignment problem -->
+      <div class="flex-bear">
+        <img src="polarBear.jpg" alt="sad bear" />
+        <p id="bear-caption">Has this bear been trying to align text vertically?</p>
+      </div>
+
+    </main>
+    <script src="pseudocode.js"></script>
+  </body>
+</html>
