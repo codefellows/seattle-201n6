@@ -1,13 +1,3 @@
-var allItems = [];
-
-function Item(n, price) {
-  this.name = n;
-  this.price = price;
-  this.tax = 0;
-  this.total = 0;
-  allItems.push(this);
-}
-
 var socks = {
   name: 'socks',
   price: 8.99,
