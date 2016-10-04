@@ -1,9 +1,5 @@
 var allItems = [];
-var grandTotals = {
-  price: 0,
-  tax: 0,
-  total: 0
-};
+var grandTotals;
 
 var form = document.getElementById('form');
 var button = document.getElementById('fun-button');
@@ -76,45 +72,28 @@ function makeAllItemRows() {
   }
 }
 
-// function makeTotalRow() {
-//   var row = document.createElement('tr');
-//
-//   var totalCell = document.createElement('th');
-//   totalCell.textContent = 'Total';
-//   row.appendChild(totalCell);
-//
-//   var priceCell = document.createElement('th');
-//   priceCell.textContent = grandTotals.price;
-//   row.appendChild(priceCell);
-//
-//   var taxCell = document.createElement('th');
-//   taxCell.textContent = grandTotals.tax;
-//   row.appendChild(taxCell);
-//
-//   var totalCell = document.createElement('th');
-//   totalCell.textContent = grandTotals.total;
-//   row.appendChild(totalCell);
-//
-//   tfoot.appendChild(row);
-// }
-
-//alternative implementation: loop through the props in grandTotals
 function makeTotalRow() {
   var row = document.createElement('tr');
 
   var totalCell = document.createElement('th');
-    totalCell.textContent = 'Total';
-    row.appendChild(totalCell);
+  totalCell.textContent = 'Total';
+  row.appendChild(totalCell);
 
-  for (prop in grandTotals) {
-    var cell = document.createElement('th');
-    cell.textContent = grandTotals[prop];
-    row.appendChild(cell);
-  }
+  var priceCell = document.createElement('th');
+  priceCell.textContent = grandTotals.price;
+  row.appendChild(priceCell);
+
+  var taxCell = document.createElement('th');
+  taxCell.textContent = grandTotals.tax;
+  row.appendChild(taxCell);
+
+  var totalCell = document.createElement('th');
+  totalCell.textContent = grandTotals.total;
+  row.appendChild(totalCell);
 
   tfoot.appendChild(row);
 }
 
 updateObjects();
 makeAllItemRows();
-makeTotalRow();
+// makeTotalRow();
