@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h2>Tables, Forms, Events!</h2>
+
+      <form id="form">
+        <fieldset>
+          <legend>this is where you put things in the form</legend>
+
+          <!--make a block-level input  -->
+          <!-- <div> -->
+            <label for="name">Item name:</label>
+            <input type="text" name="name" required>
+          <!-- </div> -->
+
+          <!--everything else in the form will be inline  -->
+          <label for="price">Price:</label>
+          <input type="number" name="price" min="0" required>
+
+          <input type="submit" value="Add the item">
+        </fieldset>
+      </form>
+
+      <table id="table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Tax</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+
+          <tbody id="table-body">
+
+          </tbody>
+
+          <tfoot>
+
+          </tfoot>
+      </table>
+
+      <button id ="fun-button">Push for fun!</button>
+    </main>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

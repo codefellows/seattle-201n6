@@ -1,0 +1,38 @@
+body {
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 2em;
+}
+
+input {
+  font-size: 0.8em;
+}
+
+table {
+  margin-bottom: 2em;
+}
+
+th, td {
+  padding: 0.3em;
+}
+
+thead th {
+  border-bottom: 2px solid black;
+}
+
+tfoot th {
+  border-top: 2px solid black;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 0.3em;
+  border-radius: 5px;
+}
