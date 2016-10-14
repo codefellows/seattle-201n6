@@ -2,10 +2,11 @@
 # Today's Plan: Class 08 Lecture
 
 - Announcements
+  - Submitting 'Something of substance'
+  - Git Workflow / Canvas submissions
 - [Code Review](#codereview)
 - [Events](#events)
 - [HTML Forms](#forms)
-- Q&A and/or additional code review as time allows
 
 ## Readings
 
