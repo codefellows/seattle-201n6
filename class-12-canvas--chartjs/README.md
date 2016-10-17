@@ -4,8 +4,8 @@
 - Announcements
   - 301 Enrollment
   - Project Week is getting closer! Here are some more sample projects to look at:
-    - [Sasquatch Dice](http://mmailman.github.io/dice-game/)
-    - [OnTrack](http://jeffgebhardt.github.io/on-track/)
+    - [Swift Me](https://kdwinck.github.io/Swift-Me/)
+    - [OnTrack](https://jeffgebhardt.github.io/on-track/)
     - [Pong Fellows](https://shaallfar.github.io/PongFellows/)
     - [Rock Paper Scissors](https://jmalesh.github.io/final-project/)
     - [Welcome to Seattle](http://peterbreen.github.io/welcome-to-seattle/)
