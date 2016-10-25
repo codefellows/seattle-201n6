@@ -1,5 +1,5 @@
 Git & GitHub Team Workflow
-=================
+===============
 
 ## When you start a new feature...
 * Start from an up-to-date _master_ branch   
