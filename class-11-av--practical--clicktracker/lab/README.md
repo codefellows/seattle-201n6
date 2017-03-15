@@ -26,9 +26,54 @@ You are also responsible for the look and feel of the app, so don't forget a cus
 # User Stories
 
 **USER**
+- As a user I want a site that instruct a user to make a choice out of three images, which is saved each time to collect data about the personality of the person using the site.
 
+- As a user I want the photos to refresh every time I click them so that I can pick a new one each time.
+
+- As a user I want to be able to click on any one of the three photos displayed.
+
+- As a user I want my choices to be tracked, totaled and returned to me after a certain number of clicks.
+
+- As a user I would like the opportunity to have my choices cleared so that I can go through the images and choose again.
+
+- As a user I want the results of the quiz displayed clearly at the end, and for the quiz to be infinitely repeatable.
+  - I need to list simple instructions to the user.
+
+  - I want the pictures to refresh as the user votes, up to 15 times.
+
+  - I want the pictures to randomly display.
+
+  - I want to display a “view results now” button once the user clicked 15 times.
+
+  - I want to display the breakdown of votes the user selected.
+
+  - I want to provide a “reset” option once the user has seen the votes.
+
+  - We are presenting a variety of unique gift ideas.
+
+  - In writing this program, we are helping the user to discover their interests.
 
 **DEVELOPER**
+- As a developer I want to build the site using HTML, CSS, and Javascript to keep the structure simple and focused on the images.
+
+- As a developer I want to capture the user’s preferences, using a cross section of three choices.
+
+- As a developer I want to create a loop to allow for 15 clicks.
+
+- As a developer I want to assign a value to each of the photos and then create a function that generates 3 random numbers in that range and uses those to return the photos for each 'round'.
+
+- As a developer I want to create an error exception if the user does not click one of the photos.
+
+- As a developer I want to track the user clicks and tally them. Then render the totals to the DOM.
+
+- After the last click a 'View Results Now' button should be rendered in the DOM.
+
+- After button is clicked, unordered list of results and a list item for the total number of clicks are shown as well as a reset button that will clear the totals and start the count again.
+
+- As a developer I want to style the site simply so that the images are prominently displayed.
+
+(STRETCH)
+- As a developer I want to keep track of how many times each item was shown. Also, how many times each item was clicked when it was shown. Calculate the percentage based on those two values.
 
 
 ## Technical Requirements

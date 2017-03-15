@@ -1,0 +1,28 @@
+body {
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+table {
+  margin-top: 1em;
+}
+
+th, td {
+  padding: 0.3em;
+}
+
+thead th {
+  border-bottom: 2px solid black;
+}
+
+tfoot th {
+  border-top: 2px solid black;
+}
+
+.money {
+  text-align: right;
+}

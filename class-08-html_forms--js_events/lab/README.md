@@ -11,9 +11,16 @@ Here are some of the steps you'll need to take, but not necessarily in this orde
 - Use the constructor function as your guide to determine what input fields your form needs (hint: also consider what values are passed in when creating object instances!)
 - Your JS will need an event listener, an event handler, and a variable to facilitate DOM access to the form.
 - As we saw in class, the event handler should take the data from the input fields, pass it into the constructor function, and create a new instance of a coffee kiosk that is then appended to the table.
+- Make sure you update the totals when a new kiosk is created.
 - Are you going to do any error correction on input? You should.
 - Build incrementally. Test frequently.
 - Be attentive to overall code structure.
 - This is a good point to refactor your code into smaller functions/methods if you have some huge functions going on. Remember that each function should do one thing, and that you can compose more complex behavior out of functions.
 
 Submit your assignment through Canvas as usual.
+
+## Technical Requirements
+
+- All pre-existing kiosks are rendered in tables.
+- The data.html page has a form that accepts input to create a new kiosk.
+- The JS has an event handler that takes the input from the form, creates a new kiosk object, and renders it to the DOM. The all-kiosk totals are also updated and re-rendered.
